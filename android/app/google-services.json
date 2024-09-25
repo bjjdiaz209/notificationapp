@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720770286814",
+    "project_id": "flutter-projects-3a47c",
+    "storage_bucket": "flutter-projects-3a47c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720770286814:android:5ca7067eb9eee3e1c7ee4f",
+        "android_client_info": {
+          "package_name": "com.juanquintana.push_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIvLJUnoV-N1jvU_ywUXWhdSXUx0I7_eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
