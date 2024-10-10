@@ -13,8 +13,11 @@ void main() async {
   await LocalNotification.initializeLocalNotification();
 
   runApp(MultiBlocProvider(providers: [
-    BlocProvider<NotificationsBloc>(
-      create: (context) => NotificationsBloc(),
+    BlocProvider(
+      create: (context) => NotificationsBloc(
+          requestPermissionLocalNotification:
+              LocalNotification.requestPermissionLocalNotification,
+          showLocalNotification: LocalNotification.showLocalNotification),
     ),
   ], child: const MainApp()));
 }
